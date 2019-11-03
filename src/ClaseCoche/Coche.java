@@ -14,11 +14,9 @@ public class Coche {
 		return velocidad;
 
 	}
-
 	private void acelera(int mas) {
 		velocidad += mas;
 	}
-
 	private void frena(int menos) {
 		velocidad -= menos;
 
