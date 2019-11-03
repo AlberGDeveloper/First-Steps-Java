@@ -1,5 +1,5 @@
 package ClaseSatelite;
 
-public class Temperatura {
+public class Satelite {
 
 }
