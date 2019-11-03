@@ -1,3 +1,5 @@
+//@Autor: Alberto García López
+
 package ClaseCoche;
 
 public class Coche {
@@ -8,17 +10,17 @@ public class Coche {
 		velocidad = 0;
 	}
 
-	public int getVelocidad() {
+	private int getVelocidad() {
 		return velocidad;
+
 	}
 
 	private void acelera(int mas) {
-		velocidad+=mas;
+		velocidad += mas;
 	}
 
 	private void frena(int menos) {
-		velocidad-=menos;
-		
+		velocidad -= menos;
 
 	}
 }
