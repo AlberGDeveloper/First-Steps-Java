@@ -1,5 +1,9 @@
 package ClasePajaro;
-
+/**
+ * 
+ * @author Ionut Alin
+ *
+ */
 public class Pajaro {
 	public void setEdad(int e){edad = e;}
 	public void printEdad(){System.out.println(edad);}
