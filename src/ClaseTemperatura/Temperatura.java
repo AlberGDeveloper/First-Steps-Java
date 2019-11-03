@@ -1,4 +1,5 @@
 //@Autor: Alberto García López
+
 package ClaseTemperatura;
 
 public class Temperatura {

@@ -4,22 +4,21 @@ package ClaseCoche;
 public class Coche {
 
 	private int velocidad;
-
 	Coche() {
 		velocidad = 0;
 	}
 
-	private int getVelocidad() {
+	public int getVelocidad() {
 		return velocidad;
 
 	}
-	
-	private void acelera(int mas) {
+
+	public void acelera(int mas) {
 		velocidad += mas;
 	}
-	
-	private void frena(int menos) {
-		velocidad -= menos;
 
+	public void frena(int menos) {
+		velocidad -= menos;
 	}
+
 }
