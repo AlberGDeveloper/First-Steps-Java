@@ -11,6 +11,6 @@ public class TestCoche {
 		miCoche.acelera(mas);
 		miCoche.frena(menos);
 
-		System.out.println("Velocidad actual " + miCoche.getVelocidad());
+		System.out.println("Velocidad actual es:" + miCoche.getVelocidad());
 	}
 }

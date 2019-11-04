@@ -20,7 +20,7 @@ public class Satelite {
 	}
 	
 	//He creado uun método para satélite
-	public void satélite (){
+	public void satelite (){
 	meridiano=paralelo=distancia_tierra=0;
 	}
 	public void setPosicion(double m,double p,double d){
