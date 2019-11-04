@@ -6,6 +6,7 @@
 package ClaseSatelite;
 
 //Le he añadido una "s" a la clase class
+
 public class Satelite {
 	private double meridiano;
 	
