@@ -4,14 +4,13 @@ package ClaseCoche;
 public class TestCoche {
 
 
-	public static void main(String[] args, int menos, int mas) {
+	public static void main(String[] args) {
 		Coche miCoche = new Coche();
+		int mas = 30;
+		int menos = 20; 
+		miCoche.acelera(mas);
+		miCoche.frena(menos);
 
-		miCoche.acelera(30);
-		miCoche.frena(20);
-		System.out.println(miCoche.getVelocidad());
-		System.out.println(miCoche.getVelocidad() + (menos));
-		System.out.println(miCoche.getVelocidad() + (mas));
-
+		System.out.println("Velocidad actual " + miCoche.getVelocidad());
 	}
 }
